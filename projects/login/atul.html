@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <style type="text/css">
+       #student 
+          {
+            margin-top: 250px
+          }
+    </style>
+  </head>
+
+  <body class=" indigo darken-4">
+      
+    <div class="container">
+      <div class="row" style="margin-top:20%">
+        <div class="col s12 m6">
+          <div class="card-panel blue darken-3">
+            <div class="card-content center">
+              <div class="row center">
+                <h5 class="white-text text-darken-1 center">Login or sign up with</h5>
+              </div>
+              <div class="row center">
+                <a href="" class="col s8 offset-s2 btn blue darken-4 btn-large waves-effect"><i class="fa fa-facebook left"></i>Facebook</a>
+              </div>
+              <div class="row center">
+                <a href="" class="col s8 offset-s2 btn red lighten-2 btn-large waves-effect"><i class="fa fa-google left"></i>Google</a>
+              </div>
+              <div class="row center">
+                <a href="" class="col s8 offset-s2 btn grey  btn-large waves-effect"><i class="fa fa-github left"></i>Facebook</a>
+              </div>
+            </div> 
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card-panel blue darken-3" style="max-height:330px;">
+            <div class="card-content center">
+             <div "row center">
+              <h5 class="white-text text-darken-1 center">Login</h5>
+             </div>
+             <div class="row center">
+                <form class="col s12">
+                   <div class="input-field col s12">
+                      <i class="mdi-action-account-circle prefix white-text"></i> 
+                        <input id="icon_prefix" class="validate" type="text"> 
+                        <label for="icon_prefix" class="white-text">User Name</label>
+                   </div>
+                </form>
+             </div>
+             <div class="row center">
+               <form class="col s12">
+                 <div class="input-field col s12 ">
+                  <i class="mdi-action-lock-open prefix white-text"></i>
+                   <input id="password" type="password" class="validate">
+                   <label for="password" class="white-text">Password</label>
+                 </div>
+               </form>
+             </div>
+              <div class="row">
+                <div class="col s10 offset-s1">
+                  <a href="" class="waves-effect waves-light btn  green lighten-2 left">Forgot password</a>
+                  <a href="" class="waves-effect waves-light btn  lime right">Login</a>
+                </div>
+              </div>
+             
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row center">
+        <div class="col s12">
+           <a class="modal-trigger col s8 offset-s2 btn blue darken-4 btn-large waves-effect" href="#modal1">Registration</a> 
+        </div>
+        
+      </div>
+    </div>
+    
+
+    <!--login modal-->
+     <div id="modal1" class="modal">
+       <div class="modal-content">
+        <h2 class="center-align">Registration</h2>
+          <div class="center-align">
+            <div class="divider"></div>
+              <form class="col s12">
+                <div class="row center-align">
+                     <div class="input-field col m10 offset-m1 blue-text">
+                        <input id="first_name" type="text" class="validate">
+                        <label for="first_name">First Name</label>
+                     </div>
+                     <div class="input-field col m10 offset-m1 blue-text">
+                        <input id="last_name" type="text" class="validate">
+                        <label for="last_name">Last Name</label>
+                     </div>                
+                     <div class="input-field col m10 offset-m1 blue-text">
+                       <input id="email" type="email" class="validate">
+                       <label for="email">Email</label>
+                     </div>
+                     <div class="input-field col m10 offset-m1 blue-text">
+                        <i class="mdi-action-account-circle prefix"></i>
+                        <input id="icon_prefix" type="text" class="validate">
+                        <label for="icon_prefix">Username</label>
+                     </div>
+                     <div class="input-field col m10 offset-m1 blue-text ">
+                        <i class="mdi-action-lock-open prefix"></i>
+                        <input id="icon_password" type="password" class="validate">
+                        <label for="icon_password">Password</label>
+                     </div>
+                     
+                     <div class="input-field col m10 offset-m1 blue-text">
+                        <input type="checkbox" class="blue-text" id="filled-in-box" checked="checked">
+                        <label for="filled-in-box">Remember me next time</label>
+                     </div>
+                </div>
+              </form>
+              <div class="divider"></div>
+              <p>
+                <a href="#" class="btn btn-flat white modal-close">Cancel</a> &nbsp;
+                <a href="#" class="waves-effect waves-blue blue btn btn-flat modal-action modal-close">Login</a>
+              </p>
+            </div>
+         </div>
+     </div>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+         $('.modal-trigger').leanModal();
+        });
+     
+      </script> 
+  </body>
+</html>
+      

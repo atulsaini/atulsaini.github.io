@@ -1,0 +1,23 @@
+ /* line 15, ../sugarsync/sass/components/_icons-material-design.scss */
+[class^="mdi-"], [class*=" mdi-"] {
+  font-family: "Material-Design-Icons";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  text-rendering: auto;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* line 1, ../sugarsync/sass/components/_grid.scss */
+.container {
+  padding: 0 3rem;
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 90%; }
+img{
+  margin-top: 30px;
+  border: .3em solid;
+}

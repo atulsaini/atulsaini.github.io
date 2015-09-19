@@ -1,0 +1,203 @@
+/* general */
+html {
+         color: rgb(5, 178, 255)
+}
+
+ 
+
+main {
+    padding-left: 240px;
+}
+
+@media only screen and (max-width: 992px) {
+    main {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .container {
+        width: 85%;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .container {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    header,
+    main,
+    footer {
+        padding-left: 0;
+    }
+}
+
+/* topbar */
+ 
+ 
+
+nav.top-nav a.page-title {
+    line-height: 60px;
+    font-size: 48px;
+}
+
+@media only screen and (max-width: 992px) {
+    nav .nav-wrapper {
+        text-align: center;
+    }
+    nav .nav-wrapper a.page-title {
+        font-size: 36px;
+    }
+}
+
+/* sidebar button */
+a.button-collapse.top-nav {
+    position: absolute;
+    text-align: center;
+    height: 48px;
+    width: 48px;
+    left: 7.5%;
+    top: 0;
+    float: none;
+    margin-left: 1.5rem;
+    color: #fff;
+    font-size: 32px;
+    z-index: 2;
+}
+
+a.button-collapse.top-nav.full {
+    line-height: 60px;
+}
+
+@media only screen and (max-width: 600px) {
+    a.button-collapse.top-nav {
+        left: 5%;
+    }
+}
+
+/* sidebar */
+ul.side-nav.fixed li.logo {
+    text-align: center;
+    margin-top:
+    margin-bottom: px;
+     
+}
+
+ul.side-nav.fixed li.logo:hover {
+    background-color: transparent;
+}
+
+.side-nav li:hover,
+.side-nav li.active {
+    background-color: #212121;
+}
+
+.side-nav li.submenu:hover,
+.side-nav li.submenu.active {
+    background-color: #424242;
+}
+
+ul.side-nav.fixed a:hover,
+ul.side-nav.fixed a:active {
+    padding-left: 25px;
+    transition: all 0.3s;
+    background-color: none;
+}
+
+ul.side-nav.fixed {
+    overflow: hidden;
+}
+
+ul.side-nav.fixed li {
+    line-height: 4px;
+}
+
+ul.side-nav.fixed li a {
+    font-size: 13px;
+    line-height: 44px;
+    height: 44px;
+}
+
+ul.side-nav.fixed ul.collapsible-accordion {
+    background-color: #212121;
+}
+
+ul.side-nav.fixed:hover {
+    overflow-y: auto;
+}
+
+.bold > a {
+    font-weight: bold;
+}
+
+/* Files */
+.collection-item.avatar > .secondary-content {
+    opacity: 0.3;
+}
+
+.collection-item.avatar:hover > .secondary-content {
+    opacity: 1.0;
+    transition: all 0.5s;
+}
+
+.collection-item.avatar.clickable {
+    cursor: pointer;
+}
+
+ 
+ 
+
+ .featurette {
+  background: #222334;
+  padding: 50px 0;
+  color: #ffffff;
+  margin-top: -24px;
+}
+
+.featurette-item {
+  margin-bottom: 15px;
+}
+
+.featurette-item > i {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+}
+ 
+
+
+ .section1{
+    background-color: #546e7a;
+    margin-top: px;
+ }
+
+
+.btn1 {
+   border: .2em solid;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+    font-size: 20px;
+   background-color:transparent;
+    
+    text-transform: capitalize;
+}
+
+.btn1:hover {
+   background-color:#eeeeee;
+   color:#777777;
+}
+
+footer.page-footer {
+    margin-top: -20px;
+}
+ 

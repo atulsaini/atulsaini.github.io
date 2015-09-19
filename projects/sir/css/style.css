@@ -1,0 +1,369 @@
+body{
+	text-rendering:optimizelegibility;
+	background:#d5dee7;
+	font-family:Roboto,sans-serif;
+	overflow:hidden;
+}
+
+.main-btn{
+	background:#e91e63;
+	border-color:#e91e63;
+	border-radius:0;
+	color:#fff;
+}
+.main-btn:hover{
+	background:#e91e63;
+	color:#fff;
+	box-shadow:0 3px 6px rgba(0,0,0,.2),0 3px 6px rgba(0,0,0,.28);
+}
+
+.line-btn{
+	font-weight:300;
+	background:#e91e63;
+	border-radius:0;
+	color:#fff;
+	border-color:#e91e63;
+}
+
+.line-btn:hover{
+	color:#fff;
+	background:#f53174;
+}
+.color-overlay{
+	background:rgba(66,134,245,.9);
+}
+ 
+.back-to-top{
+	text-align:center;
+	position:fixed;
+	bottom:15px;
+	right:10px;
+	text-decoration:none;
+	color:#fff;
+	background-color:#e91e63;
+	display:none;border-radius:100%;
+	width:56px;height:56px;
+	box-shadow:0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24)
+	}
+
+ 
+.navbar-default .navbar-toggle .icon-bar{
+	background-color:#fff;
+}
+.navbar-default .navbar-toggle{
+	border-color:#fff;
+	margin-top:0;
+}
+ 
+ 
+.progress{
+	background-color:#eee;
+	height:30px;
+	margin-bottom:30px;
+	border-radius:0;
+}
+.progress-bar{
+	line-height:30px;
+	text-align:left;
+	padding-left:15px;
+	font-size:14px;
+	}
+
+.navbar-default .navbar-brand{
+	padding:0 15px;height:auto;
+}
+.navbar.navbar-default{
+	padding:15px 0;
+	background:0 0;
+	border:none;
+	margin:0;}
+ 
+.navbar-default .navbar-nav>li>a{
+	color:#fff;
+	font-size:16px;
+	font-weight:300;
+	padding:7px 15px;
+}
+.navbar-default .navbar-nav>li>a.active{
+	color:#fca1c0;
+}
+
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>li>a:focus,.navbar-default .navbar-nav>li>a:hover{background:0 0;color:#ef6348}
+.main-menu.floating-menu{background:#3367d5}
+ 
+ 
+ 
+#banner{
+	 
+	text-align:center;
+	height: auto;  
+	margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 0;
+}
+#banner h1{
+	font-weight:400;
+	color:#e91e63;
+	}
+#banner h2{
+	font-size:60px;
+	font-weight:500;
+	color:#fff;
+}
+#banner h2 span{
+	font-weight:300;
+}
+#banner h1 .mdicon{
+	font-size:160px;
+}
+#banner p{
+	font-size:30px;
+	font-weight:300;
+	color:#fff;
+}
+#banner .container{
+	position:relative;
+}
+#banner .container .intro{
+	margin-top:200px;
+}
+#about .sectionIcon{
+	background:0 0;
+	top:-66px;
+	font-size:66px;
+	color:#fff;
+}
+
+ 
+
+section h2.heading{
+	font-size:48px;
+	color:#333;
+	font-weight:300;
+	line-height:36px;
+	margin-bottom:50px;
+	margin-top:0;
+}
+section h3.helping-text{
+	font-size:20px;
+	color:#888;
+	font-weight:300;
+	margin:0 0 30px;
+	line-height:36px;
+}
+section p{
+	font-size:18px;
+}
+section{
+	position:relative;
+	padding:70px 0 50px;
+	text-align:center;
+}
+#parallax-1{
+	padding:0;
+	 
+}
+#parallax-1 .color-overlay{
+	padding:50px 0;
+}
+#parallax-2{padding:50px 0;
+	 
+}
+
+.bgParallax h2.heading{
+	color:#fff;
+	margin-bottom:25px;
+}
+#mywork{
+		 
+
+}
+.portfolio-grid .thumbnail{
+	margin-bottom:30px;
+	border-radius:0;
+	border:none;
+	padding:0;
+}
+.portfolio-grid .thumbnail img{
+	height:213px;
+	border:none;
+	border-radius:0;
+	padding:0;
+}
+ 
+.social li a{
+	font-size:24px;
+	color:#fff;
+}
+.social li a .mdicon{
+	font-size:48px;
+	line-height:48px;
+}
+.social li a:hover{
+	color:#e91e63;
+	}
+#skills{
+	background:#fff;
+}
+
+.progress-bar-success{
+	background-color:#259b24;
+}
+.progress-bar-info{
+	background-color:#3f51b5;
+}
+.progress-bar-warning{
+	background-color:#ff9800;
+}
+.progress-bar-danger{
+	background-color:#e51c23;
+}
+.contact-form .textarea{
+	min-height:220px;
+	resize:none;
+}
+
+#info{
+	background:#343434;
+	color:#fff;
+}
+#info h4{
+	margin-top:0;
+	font-size:26px;
+	color:#fff;
+	font-weight:300;
+}
+#info p{
+	color:#fff;
+	font-size:14px;
+}
+footer{
+	padding:20px 0;
+	background:#333;
+	width:100%;
+	float:left;
+}
+footer .design-by{
+	font-size:13px;
+	color:#888;
+	text-align:right;
+}
+@media (min-width:1200px){
+	.container{
+		width:970px
+	    }
+	}
+
+.btn-round {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.btn-round.btn-lg {
+    width: 48px;
+    height: 48px;
+}
+
+.btn-round.btn-sm {
+    width: 34px;
+    height: 34px;
+}
+
+.btn-round.btn-xs {
+    width: 24px;
+    height: 24px;
+}
+.blurb {
+	  
+  padding: 120px 0;
+  background-color:#fefefe;
+}
+
+.blurb .panel {
+  background-color:transparent;
+}
+
+.bright {
+  background: #7fbbda url('http://www.bootply.com/assets/example/bg_suburb.jpg') no-repeat center center fixed; 
+  color:#fff;
+}
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px 16px;
+}
+  
+.btn-lg {
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #428bca;
+  border-color: #357ebd;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #3276b1;
+  border-color: #285e8e;
+}
+
+/**OUTLINE BUTTONS**/
+
+.btn.outline {
+	background: none;
+	padding: 12px 22px;
+	margin-bottom: 50px;
+}
+.btn-primary.outline {
+	border: 2px solid #0099cc;
+	color: #0099cc;
+}
+.btn-primary.outline:hover, .btn-primary.outline:focus, .btn-primary.outline:active, .btn-primary.outline.active, .open > .dropdown-toggle.btn-primary {
+	color: #33a6cc;
+	border-color: #33a6cc;
+}
+.btn-primary.outline:active, .btn-primary.outline.active {
+	border-color: #007299;
+	color: #007299;
+	box-shadow: none;
+}
+
+/**CUSTON BTN VALUES**/
+
+.btn {
+	padding: 14px 24px;
+	border: 0 none;
+	font-weight: 700;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+	outline: 0 none;
+}
